@@ -1,0 +1,6 @@
+[submodule "GoldenCompass-node"]
+	path = GoldenCompass-node
+	url = https://github.com/yinanfang/GoldenCompass-node
+[submodule "iOS/DBDCapital"]
+	path = iOS/DBDCapital
+	url = https://github.com/yinanfang/DBDCapital
