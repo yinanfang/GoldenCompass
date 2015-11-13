@@ -24,14 +24,15 @@ This is was originally a full stack project for my personal blog site. However, 
     Create $HOME/node/config/config.js and fill in info like $HOME/Others/configTemplate.js
 
 ## Product Features
+  - [ ] [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) with Travis CI
 
 ## Architecture Features
 
 ## UI/UX Design Features
 
 ## iOS Features:
-- [ ] Strong Mudularity
-  - [ ] Modular and Reusable code
+- [ ] Mudularity & Reusability
+  - [ ] node and iOS library
 - [ ] Multi-Threaded Programming
   - [ ] Only update UI from the main thread. Do other work in the secondary thread
 - [ ] Dependencies Injection with NSNotification+Factory Methods
@@ -238,5 +239,9 @@ This is was originally a full stack project for my personal blog site. However, 
 - Markdown Editor
   - [stackedit](https://stackedit.io/editor)
 
+## Setup
+Add submodules:
 
+    git submodule add https://github.com/yinanfang/GoldenCompass-node.
+    git submodule add https://github.com/yinanfang/DBDCapital ./iOS/DBDCapital
 
