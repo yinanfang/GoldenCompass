@@ -135,9 +135,9 @@ This is was originally a full stack project for my personal blog site. However, 
   - JSON Web Tokens work across different programming languages: JWTs work in .NET, Python, Node.js, Java, PHP, Ruby, Go, JavaScript, and Haskell. So you can see that these can be used in many different scenarios.
   - JWTs are self-contained: They will carry all the information necessary within itself. This means that a JWT will be able to transmit basic information about itself, a payload (usually user information), and a signature.
   - JWTs can be passed around easily: Since JWTs are self-contained, they are perfectly used inside an HTTP header when authenticating an API. You can also pass it through the URL.
-3. Relative Path Problem
-  - Node.js require() [searching algorithm](http://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm)
-  - Solution: https://gist.github.com/branneman/8048520
+  - Authentication with JWT because
+    - [Cookies are bad for you](http://sitr.us/2011/08/26/cookies-are-bad-for-you.html)
+    - [Difference between JWT and Cookie](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage/)
 
 #### Structure
 
@@ -217,7 +217,7 @@ This is was originally a full stack project for my personal blog site. However, 
 - [ ] GC. Module. Separate GC. GoldenCompass-node, GoldenCompass-iOS. GCAppKit, auth.js token, app.js base dir, separate route.js. SublimeLinter, gulp-notify. Define __base for log?
 - [ ] Vim. Set mouse to A. Take out unused code in zshrc
 - [ ] GoldenCompass. Use namespace for api. node-jsonwebtoken. Don't use user email as id, use userID. DB table prefix. dotenv. brosersync proxy port, get from env|config
-
+- [ ] logo design like code climate. Second beaker goes up
 
 ## Summarize Great Article from
 - [ ] Make them a feature of this project.
