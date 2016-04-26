@@ -16,6 +16,7 @@ This is was originally a full stack project for my personal blog site. However, 
 ## Architecture Features
 
 ## UI/UX Design Features
+  - Logo Design. Adobe AI with CodeClimate logo reversed
 
 ## Requirements
 - iOS 8.0+
@@ -44,5 +45,3 @@ Add submodules:
     $ git submodule add https://github.com/yinanfang/GoldenCompass-node.
     $ git submodule add https://github.com/yinanfang/DBDCapital ./iOS/DBDCapital
 ```
-
-
